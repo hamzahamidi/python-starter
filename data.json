@@ -1,0 +1,17 @@
+[
+    {
+        "object": "Account",
+        "sql": "accounts",
+        "table": "account"
+    },
+    {
+        "object": "Campaign",
+        "sql": "campaign",
+        "table": "campaign"
+    },
+    {
+        "object": "CampaignFixed",
+        "sql": "Campaignfixed",
+        "table": "Campaign_fixed"
+    }
+]
