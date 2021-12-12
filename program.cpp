@@ -42,7 +42,11 @@ using namespace std;
 
 int main()
 {
+    int m = 10;
+    int n = 3;
     vector<string> msg {"Hello", "C++", "World", "from", "VS Code", "and the C++ extension!"};
+    vector<vector<int>> lookup(m, vector<int>(n,1));
+    vector<bool> ok(vector<bool>(n,false));
 
     for (const string& word : msg)
     {
